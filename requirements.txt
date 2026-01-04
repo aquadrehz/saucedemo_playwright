@@ -1,0 +1,6 @@
+# Python Playwright project initialized with uv
+# To activate the environment: source .venv/bin/activate
+# To run Playwright: python -m playwright
+
+playwright
+
