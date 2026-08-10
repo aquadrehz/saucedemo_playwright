@@ -1,3 +1,5 @@
+
+
 # SauceDemo Playwright Automation
 
 This project demonstrates how to automate login testing for [saucedemo.com](https://www.saucedemo.com/) using both Playwright for TypeScript/JavaScript and Playwright for Python.
@@ -24,11 +26,11 @@ This project demonstrates how to automate login testing for [saucedemo.com](http
 ### Run the Test
 - To run the login test in **headless** mode (no UI):
   ```sh
-  npx playwright test login.spec.ts
+  npx playwright test tests/login.spec.ts
   ```
 - To run the test in **headed** mode (show browser UI):
   ```sh
-  npx playwright test login.spec.ts --headed
+  npx playwright test tests/login.spec.ts --headed
   ```
 
 ### Playwright Test Runner UI (TypeScript/JavaScript only)
@@ -88,4 +90,3 @@ This project demonstrates how to automate login testing for [saucedemo.com](http
   - Username: `standard_user`
   - Password: `secret_sauce`
 - Make sure to install all dependencies and browsers before running tests.
-
